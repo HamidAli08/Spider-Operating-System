@@ -1,0 +1,19 @@
+Created Process: PID=1, Name=1, Priority=2, Burst Time=3
+Created Process: PID=2, Name=2, Priority=5, Burst Time=6
+Changed State: PID=1, Name=1, From=Waiting To=Running
+Created Process: PID=1, Name=1, Priority=2, Burst Time=3
+Created Process: PID=2, Name=2, Priority=4, Burst Time=5
+Round Robin: Executing PID=1 (1)
+Round Robin: Executing PID=2 (2)
+Round Robin: Executing PID=1 (1)
+Process PID=1 completed
+Round Robin: Executing PID=2 (2)
+Round Robin: Executing PID=2 (2)
+Process PID=2 completed
+Created Process: PID=1, Name=ali, Priority=5, Burst Time=7
+Created Process: PID=2, Name=ali2, Priority=4, Burst Time=8
+Changed State: PID=2, Name=ali2, From=Waiting To=Running
+Created Process: PID=1, Name=first, Priority=8, Burst Time=5
+Created Process: PID=1, Name=hashir, Priority=1, Burst Time=4
+Created Process: PID=2, Name=hamid, Priority=2, Burst Time=5
+Created Process: PID=1, Name=ali, Priority=2, Burst Time=5
